@@ -43,7 +43,8 @@ h1 {
    font-size: 30px;
    line-height: 80px;
    position: relative;
-   z-index: 10; 
+   z-index: 10;
+   transition: color 0.5s; 
 }
 
 .social-links a::after {
@@ -59,4 +60,8 @@ h1 {
 
 .social-links a:hover::after {
     top: 0;
+}
+
+.social-links a:hover .fa-brands {
+    color: #fff;
 }
