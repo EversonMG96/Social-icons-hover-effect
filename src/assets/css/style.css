@@ -37,6 +37,7 @@ h1 {
     margin: 0 30px;
     border-radius: 50%;
     position: relative;
+    overflow: hidden;
 }
 
 .social-links a .fa-brands {
