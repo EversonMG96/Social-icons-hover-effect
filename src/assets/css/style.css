@@ -38,6 +38,7 @@ h1 {
     border-radius: 50%;
     position: relative;
     overflow: hidden;
+    transition: transform 0.5s;
 }
 
 .social-links a .fa-brands {
@@ -65,4 +66,8 @@ h1 {
 
 .social-links a:hover .fa-brands {
     color: #fff;
+}
+
+.social-links a:hover {
+    transform: translateY(-10px);
 }
